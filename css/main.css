@@ -41,7 +41,7 @@ body {
 }
 
 button {
-  background-color: #564787;
+  background-color: #d84a38;
   border: none;
   border-radius: 2px;
   color: white;
@@ -89,7 +89,7 @@ div#links {
 }
 
 h1 {
-  color: #101935;
+  border-bottom: 1px solid #ccc;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 0 0 0.8em 0;
@@ -263,5 +263,4 @@ ul {
     font-size: 20px;
   }
 }
-
 
