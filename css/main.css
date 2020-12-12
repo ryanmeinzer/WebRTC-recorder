@@ -41,7 +41,7 @@ body {
 }
 
 button {
-  background-color: #d84a38;
+  background-color: #EF6F6C;
   border: none;
   border-radius: 2px;
   color: white;
@@ -52,15 +52,15 @@ button {
 }
 
 button:active {
-  background-color: #cf402f;
+  background-color: #EB4A47;
 }
 
 button:hover {
-  background-color: #cf402f;
+  background-color: #EB4A47;
 }
 
 button[disabled] {
-  color: #ccc;
+  color: lightgray;
 }
 
 button[disabled]:hover {
