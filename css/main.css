@@ -103,6 +103,11 @@ div#container {
   align-content: center;
 }
 
+div#disclaimer {
+  margin: 20px;
+  /* opacity: .5; */
+}
+
 div#links {
   padding: 0.5em 0 0 0;
 }
