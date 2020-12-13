@@ -168,6 +168,10 @@ p.borderBelow {
   padding: 0 0 20px 0;
 }
 
+.hiddenItem {
+  display: none;
+}
+
 section p:last-of-type {
   margin: 0;
 }
