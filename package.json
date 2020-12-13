@@ -19,8 +19,5 @@
   "homepage": "https://github.com/ryanmeinzer/WebRTC-recorder#readme",
   "engines": {
     "node": "12.17.x"
-  },
-  "scripts": {
-    "start": "node server.js"
   }
 }
