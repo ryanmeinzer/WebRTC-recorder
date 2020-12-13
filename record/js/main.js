@@ -20,13 +20,14 @@ const errorMsgElement = document.querySelector('span#errorMsg');
 const recordedVideo = document.querySelector('video#recorded');
 const recordButton = document.querySelector('button#record');
 recordButton.addEventListener('click', () => {
-  if (recordButton.textContent === 'Start Recording') {
+  if (recordButton.textContent === 'Record') {
     startRecording();
   } else {
     stopRecording();
-    recordButton.textContent = 'Start Recording';
+    recordButton.textContent = 'Record';
     playButton.disabled = false;
     downloadButton.disabled = false;
+    startOverButton.disabled = false;
   }
 });
 
@@ -55,6 +56,11 @@ downloadButton.addEventListener('click', () => {
     window.URL.revokeObjectURL(url);
   }, 100);
 });
+
+const startOverButton = document.querySelector('button#startOver')
+startOverButton.addEventListener('click', () => {
+  window.location.reload()
+})
 
 function handleDataAvailable(event) {
   console.log('handleDataAvailable', event);
@@ -88,7 +94,7 @@ function startRecording() {
   }
 
   console.log('Created MediaRecorder', mediaRecorder, 'with options', options);
-  recordButton.textContent = 'Stop Recording';
+  recordButton.textContent = 'Stop';
   playButton.disabled = true;
   downloadButton.disabled = true;
   mediaRecorder.onstop = (event) => {
