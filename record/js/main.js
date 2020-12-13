@@ -20,11 +20,11 @@ const errorMsgElement = document.querySelector('span#errorMsg');
 const recordedVideo = document.querySelector('video#recorded');
 const recordButton = document.querySelector('button#record');
 recordButton.addEventListener('click', () => {
-  if (recordButton.textContent === 'Record') {
+  if (recordButton.textContent === 'Start') {
     startRecording();
   } else {
     stopRecording();
-    recordButton.textContent = 'Record';
+    recordButton.textContent = 'Start';
     playButton.disabled = false;
     downloadButton.disabled = false;
     startOverButton.disabled = false;
