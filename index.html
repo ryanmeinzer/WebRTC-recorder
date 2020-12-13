@@ -36,24 +36,25 @@
 
         <h1>WebRTC 4 Me (desktop only)</h1>
 
-        <video id="gum" playsinline autoplay muted></video>
-        <video id="recorded" playsinline loop></video>
-
         <div>
             <button id="start">Start Camera</button>
             <button id="record" disabled>Start Recording</button>
             <button id="play" disabled>Play</button>
             <button id="download" disabled>Download</button>
+            <p>Echo Cancellation: <input type="checkbox" id="echoCancellation"></p>
         </div>
 
-        <div>
+        <!-- <div>
             <h4>Recording Options</h4>
-            <p>Echo cancellation: <input type="checkbox" id="echoCancellation"></p>
-        </div>
+            <p>Echo Cancellation: <input type="checkbox" id="echoCancellation"></p>
+        </div> -->
 
         <div>
             <span id="errorMsg"></span>
         </div>
+
+        <video id="gum" playsinline autoplay muted></video>
+        <video id="recorded" playsinline loop></video>
 
     </div>
 

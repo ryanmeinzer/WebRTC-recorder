@@ -80,7 +80,7 @@ code {
 
 div#container {
   margin: 0 auto 0 auto;
-  max-width: 60em;
+  /* max-width: 60em; */
   padding: 1em 1.5em 1.3em 1.5em;
 }
 
@@ -225,7 +225,7 @@ textarea {
 }
 
 video {
-  background: #222;
+  background: lightgray;
   margin: 0 0 20px 0;
   --width: 100%;
   width: var(--width);
