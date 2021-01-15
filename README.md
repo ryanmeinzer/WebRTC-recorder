@@ -1,10 +1,10 @@
-# WebRTC 4 Me
+# Webcam Sam
 
-This web application allows you to easily record a video through your webcam to download.
+Webcam Sam shows you how you look.
 
 ## Use
 
-Go to www.ryanmeinzer.com/webrtc4me
+Go to www.webcamsam.com. 
 
 ## Features
 
@@ -12,4 +12,4 @@ Start your recording, play it back and even re-do it before downloading to your 
 
 ## Screenshot
 
-![WebRTC 4 Me Screenshot](images/webrtc4me-screenshot.png)
+![Webcam Sam Screenshot](images/webcamsam-screenshot.png)
