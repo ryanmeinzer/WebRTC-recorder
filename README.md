@@ -1,6 +1,6 @@
 # Webcam Sam
 
-Webcam Sam shows you how you look.
+WebcamSam.com shows you how you look.
 
 ## Use
 
