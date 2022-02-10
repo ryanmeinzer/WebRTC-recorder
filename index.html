@@ -63,6 +63,19 @@
     <div id="disclaimer">
         <p>* only Chrome on desktop is supported at this time</p>
     </div>
+    <div>
+        <form action="https://api.cloudconvert.com/v2/convert" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file">
+            <input type="hidden" name="apikey"
+                value="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzQ0OWQ0NTE4NTNmNjg1ZDBlNmY4ZmIwNDA3MzI2Y2UxZjQ0Y2YxNTdiMjAyNzY1NzMxYjkxYjliYjI1MGQyMjVjYTMyMTYwMDhjYTExNjUiLCJpYXQiOjE2NDQ1MTQ4OTkuNTAyMzA2LCJuYmYiOjE2NDQ1MTQ4OTkuNTAyMzA5LCJleHAiOjQ4MDAxODg0OTkuNDg5NjE2LCJzdWIiOiI1NjE3NTk3MSIsInNjb3BlcyI6WyJ1c2VyLnJlYWQiLCJ1c2VyLndyaXRlIiwidGFzay5yZWFkIiwidGFzay53cml0ZSIsIndlYmhvb2sucmVhZCIsIndlYmhvb2sud3JpdGUiLCJwcmVzZXQucmVhZCIsInByZXNldC53cml0ZSJdfQ.UcdLmcCHEcj20L3-B1Dr0OS2a7DejOuq4UqrBUa6zk4Vm5C9lbwFkEYO-zr_XZcKIiYrLe7XIqJ8P0jyqgX_esA4NgR57V9wNuKiR90ONUAOG2uPXPLEevhIRL50-yCtfl3Tc8xjoai_BE_7f1h24MN60b9h1fLZ4cKq9Sq1ZVsK1rXDJ_C3RC2PXH2rKoo5dv8qF5Csn-u9oHkldz4S6PsDzTLSRcNYvmK0UdfLQwocSCFZx9CfrgQsdaLGAuQkC2GN9EgOEuk4B9SO6bTno1pSLrjoBNLC-vrspN4FqQwsE6CO7iNbSSE_mQ96RBEuN_-a_zqjDlGGDDOQrZeY6STdgusfe8WOHHtufEB-JVP0l6rcvJKOgeU4tqbhul8Vo5F6PBm5QM-3NaLv4OHhZZetO2UJIHFERHgoRM4yyf3CBy3ecnmF9kn4i59vr58eiRO_X7IQVy-yV3rdeMIKpsEu5WL9k1-H-hRoudtagyWPjx9Annbbr22bc7WB0kYn3jIuqu_2mWMACRBfxP55RubQfQ9ZkPzZ2TftGsfaJg374BV3FAz7JMXiS9k7Dc6nXe2VmsVaN_P0YOm1rjIgfe1aaisRpzK9Jg9Hi8p_Xhlz4OjKHeBzCNn5IkAPGTrHeDLgS844fs2EqDbdhgJt-CyQE7B9gTIELOHFTsJTFFo">
+            <input type="hidden" name="inputformat" value="webm">
+            <input type="hidden" name="outputformat" value="mp4">
+            <input type="hidden" name="input" value="upload">
+            <input type="hidden" name="wait" value="true">
+            <input type="hidden" name="download" value="true">
+            <input type="submit" value="Convert!">
+        </form>
+    </div>
 
     <!-- include adapter for srcObject shim -->
     <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
