@@ -113,6 +113,10 @@ div#container {
   align-content: center;
 }
 
+div#conversion {
+  text-align: center;
+}
+
 div#disclaimer {
   margin: 20px;
   /* opacity: .5; */
